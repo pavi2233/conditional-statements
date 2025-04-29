@@ -1,0 +1,122 @@
+1.program
+name=input("Enter your name:")
+
+age=int(input("Enter your age:"))
+
+if age>=23:
+
+    print("Congratualations",name,"you are eligible to vote")
+    output :
+
+Enter your name:pivi
+
+Enter your age:23
+
+Congratualations pivi you are eligible to vote
+
+=== Code Execution Successful ===
+
+2.program
+
+num=int(input("Enter any number:"))
+if num%2==0:
+    print("The given number",num,"is even")
+else:
+    print("The given number",num,"is odd")
+
+output :
+
+Enter any number:19
+
+The given number 19 is odd
+
+
+=== Code Execution Successful ===
+3.program
+num=int(input("Enter a number:"))
+if num==1:
+    print("one")
+elif num==2:
+    print("Two")
+elif num==3:
+    print("Three")
+elif num==4:
+    print("Four")
+elif num==5:
+    print("Five")
+elif num==6:
+    print("Six")
+elif num==7:
+    print("Seven")
+elif num==8:
+    print("Eight")
+elif num==9:
+    print("Nine")
+else:
+    print("Number out of range")
+
+output:
+Enter a number:23
+
+Number out of range
+
+
+=== Code Execution Successful ===
+4.program
+
+num=int(input("Enter any number:"))
+if num>=1 and num<=100:
+    print("The given number",num,"is in between 1 - 100")
+else:
+    print("The given number",num,"is not in between 1 - 100")
+
+output:
+Enter any number:90
+
+The given number 90 is in between 1 - 100
+Enter any number:500
+
+The given number 500 is not in between 1 - 100
+
+
+=== Code Execution Successful ===
+
+
+5.program
+
+for i in range(1,21):
+    if i==3:
+        continue
+    if i==15:
+        break
+    print(i)
+output :
+1
+
+2
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+12
+
+13
+
+14
+
+
+=== Code Execution Successful ===
+
